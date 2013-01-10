@@ -1,0 +1,18 @@
+[alias]
+  co = checkout
+  ci = commit
+  c  = commit
+  rb = rebase
+  st = status
+  s  = status
+  a  = add
+  c  = commit
+  ps = push
+  pl = pull
+[user]
+  name  = Pablo Alonso Garcia
+  email = alonsogarciapablo@gmail.com
+[color]
+  ui = true
+[github]
+  user = alonsogarciapablo

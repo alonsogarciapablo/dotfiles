@@ -1,5 +1,8 @@
 # PATH
 export PATH="$HOME/usr/local/bin:$HOME/.rbenv/bin:$HOME/usr/local/sbin:$PATH"
+export PATH="/Users/pabloalonso/.rbenv/versions/1.9.3-p194/bin:$PATH"
+
+export EDITOR=vim
 
 # rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
@@ -16,3 +19,4 @@ alias vim=/Applications/MacVim.app/Contents/MacOS/Vim
 alias g=git
 alias be="bundle exec"
 alias bx="bundle exec"
+alias gr="grep -rin --color"
