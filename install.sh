@@ -23,4 +23,5 @@ done
 echo '================'
 
 git submodule init
+git submodule update
 
