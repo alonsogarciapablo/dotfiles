@@ -16,7 +16,7 @@ echo '================'
 
 for file in "${dot_files[@]}"
 do
-  rm -rf $PWD/$file $HOME/$file
+  rm -rf $HOME/$file
   echo "Removed $HOME/$file"
 done
 
